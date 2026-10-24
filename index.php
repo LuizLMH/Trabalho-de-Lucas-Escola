@@ -28,13 +28,13 @@
                         <h1>Acessar Sistema</h1>
                         <p>Informe seus dados para acessar o sistema</p>
                     </div>
-                    <form action="pagina 2.html" method="post">
+                    <form action="pagina2.php" method="post">
                         <input type="text" name="user" id="user" placeholder="Digite seu usuário">
                         <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
                         <div class="lembraracesso">
                             <input type="checkbox" name="lembrar" id="lembrar" value="Lembrar Acesso">
                             <label for="lembrar"></label>
-                            <a href="esqueciS.html">Esqueci minha senha</a>
+                            <a href="esqueciS.php">Esqueci minha senha</a>
                         </div>
                         <input id="entrar" type="submit" value="Entrar">
                     </form>

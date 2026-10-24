@@ -3,5 +3,5 @@ $servidor = "localhost";
 $usuario = "root";
 $senha = "";
 $banco = "escolaEM";
-$conexao =- mysqli_connect($servidor, $usuario, $senha, $banco);
+$conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 ?>

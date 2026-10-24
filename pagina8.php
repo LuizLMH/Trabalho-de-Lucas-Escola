@@ -14,11 +14,11 @@
         <h1 id="to">Acadêmico</h1>
     </div>
     <div class="pages8">
-        <a href="pagina 2.php" class="p2">Dashboard</a>
+        <a href="pagina2.php" class="p2">Dashboard</a>
         <a href="pagina3.php" class="p3">Cadastrar Alunos</a>
         <a href="pagina4.php" class="p4">Visualizar Alunos</a>
-        <a href="pagina 6.php" class="p6">Cadastrar Turmas</a>
-        <a href="pagina 7.php" class="p7">Visualizar Turmas</a>
+        <a href="pagina6.php" class="p6">Cadastrar Turmas</a>
+        <a href="pagina7.php" class="p7">Visualizar Turmas</a>
         <a href="index.php" id="sair">sair</a>
     </div>
     <div class="cabecalho">
