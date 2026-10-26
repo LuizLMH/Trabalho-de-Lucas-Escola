@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 8</title>
+    <title>Detalhes da turma</title>
     <link rel="stylesheet" href="arquivo.css">
 </head>
 
