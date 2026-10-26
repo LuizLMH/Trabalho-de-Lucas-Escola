@@ -23,7 +23,7 @@
     </div>
     <h1>Cadastrar Turma</h1>
     <p>Dados da Turma</p>
-    <form action="pagina 7.html" method="post">
+    <form action="pagina.php" method="post">
         <div class="cadpai">
             <div class="cadT">
                 <label for="turma">Turma</label>

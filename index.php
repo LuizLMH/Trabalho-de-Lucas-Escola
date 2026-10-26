@@ -28,7 +28,7 @@
                         <h1>Acessar Sistema</h1>
                         <p>Informe seus dados para acessar o sistema</p>
                     </div>
-                    <form action="pagina2.php" method="post">
+                    <form action="inicio.php" method="post">
                         <input type="text" name="user" id="user" placeholder="Digite seu usuário">
                         <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
                         <div class="lembraracesso">

@@ -12,7 +12,7 @@
         <div class="alinhar">
             <div class="Ecentro">
                 <h1>Redefinição de senha</h1>
-                <form action="index.html" method="post">
+                <form action="index.php" method="post">
                     <input type="password" name="senha" id="senha" placeholder="Crie sua nova senha">
                     <input type="password" name="senha" id="senha" placeholder="Confirme sua senha">
                     <input type="submit" value="Confirmar">

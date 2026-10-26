@@ -45,7 +45,7 @@
             <td>Desenvolvimento Web</td>
             <td id="ativo">Ativo</td>
             <td>
-                <button onclick="window.location.href='veraluno 5.html'" id="mais">
+                <button onclick="window.location.href='veraluno 5.php'" id="mais">
                     Ver mais
                 </button>
                 <button type="button" id="edit">Editar</button>

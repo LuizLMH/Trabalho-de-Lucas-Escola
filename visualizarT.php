@@ -82,7 +82,7 @@
                 <td>Maria Fernanda</td>
                 <td id="ativo">Ativa</td>
                 <td>
-                    <button onclick="window.location.href='pagina 8.html'" id="mais">
+                    <button onclick="window.location.href='pagina8.php'" id="mais">
                         Ver mais
                     </button>
                     <button type="button" id="edit">Editar</button>
