@@ -47,15 +47,15 @@
                         <label for="Tefefone">Telefone</label>
                         <input type="number" name="telefone" id="tefefone" placeholder="Telefone">
                         <label for="Bairro">Bairro</label>
-                        <input type="text" name="Bairro" id="Bairro" placeholder="Bairro">
+                        <input type="text" name="bairro" id="bairro" placeholder="Bairro">
                         <label for="Endereço">Endereço</label>
-                        <input type="text" name="Endereço" id="Endereço" placeholder="Endereço">
+                        <input type="text" name="endereco" id="endereco" placeholder="Endereço">
                         <label for="Numero">Número</label>
-                        <input type="number" name="Numero" id="Numero" placeholder="Número">
+                        <input type="number" name="numero" id="numero" placeholder="Número">
                         <label for="Cidade">Cidade</label>
-                        <input type="text" Cidade="Cidade" id="Cidade" placeholder="Cidade">
+                        <input type="text" name="cidade" id="cidade" placeholder="Cidade">
                         <label for="Select">Turma</label>
-                        <select name="Select" id="Select">
+                        <select name="select" id="select">
                             <option>Selecione</option>
                             <option value="1">Informatica Básica</option>
                             <option value="2">Banco de Dados</option>

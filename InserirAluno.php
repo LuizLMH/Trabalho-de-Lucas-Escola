@@ -18,7 +18,11 @@
     $cpf=$_POST["cpf"];
     $dataN=$_POST["dataN"];
     $telefone=$_POST["telefone"];
-    
+    $bairro=$_POST["bairro"];
+    $endereco=$_POST["endereco"];
+    $numero=$_POST["numero"];
+    $cidade=$_POST["cidade"];
+    $curso=$_POST["select"];
     ?>
 </body>
 </html>
