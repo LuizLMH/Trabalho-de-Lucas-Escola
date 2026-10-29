@@ -42,23 +42,40 @@
         include 'conecta.php';
         $sql = "SELECT * FROM cadAlunos";
         $resultado = mysqli_query($conexao, $sql);
-        if(mysqli_num_rows($resultado)>0){
+        if (mysqli_num_rows($resultado) > 0) {
+            while ($linha = mysqli_fetch_array($resultado)) {
+            }
         ?>
-        <tr>
-            <td>João Pedro Oliveira</td>
-            <td>123.456.789-10</td>
-            <td>14/03/2007</td>
-            <td>Desenvolvimento Web</td>
-            <td id="ativo">Ativo</td>
-            <td>
-                <button onclick="window.location.href='veraluno 5.php'" id="mais">
-                    Ver mais
-                </button>
-                <button type="button" id="edit">Editar</button>
-                <button type="button" id="zero">Excluir</button>
-            </td>
-        </tr>
-        <tr>
+            <tr>
+                <td>
+                    <?php
+                    echo "" . $linha["nome"];
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    echo "" . $linha["cpf"];
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    echo "" . $linha["datanasc"];
+                    ?>
+                </td>
+                <td>Desenvolvimento Web</td>
+                <td id="ativo">Ativo</td>
+                <td>
+                    <button onclick="window.location.href='veraluno 5.php'" id="mais">
+                        Ver mais
+                    </button>
+                    <button type="button" id="edit">Editar</button>
+                    <button type="button" id="zero">Excluir</button>
+                </td>
+            </tr>
+        <?php
+        }
+        ?>
+        <!-- <tr>
             <td>Maria Eduarda Santos</td>
             <td>234.567890-11</td>
             <td>22/06/2006</td>
@@ -129,7 +146,7 @@
                 <button type="button" id="edit">Editar</button>
                 <button type="button" id="zero">Excluir</button>
             </td>
-        </tr>
+        </tr> -->
     </table>
 </body>
 
