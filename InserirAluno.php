@@ -11,7 +11,7 @@
         header("Location: cadastrarAl.php");
         exit();
     }
-    include 'coneta.php';
+    include 'conecta.php';
     $nome=$_POST["nome"];
     $nomeP=$_POST["pai"];
     $nomeM=$_POST["mae"];
@@ -23,6 +23,11 @@
     $numero=$_POST["numero"];
     $cidade=$_POST["cidade"];
     $curso=$_POST["select"];
+    if(mysqli_query($conexao, $sql)){
+        echo "Dados inseridos";
+    }else{
+        echo "erro ao inserir dados no sistema";
+    }
     ?>
 </body>
 </html>
