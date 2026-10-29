@@ -38,6 +38,12 @@
             <th>Status </th>
             <th>Ações </th>
         </tr>
+        <?php
+        include 'conecta.php';
+        $sql = "SELECT * FROM cadAlunos";
+        $resultado = mysqli_query($conexao, $sql);
+        if(mysqli_num_rows($resultado)>0){
+        ?>
         <tr>
             <td>João Pedro Oliveira</td>
             <td>123.456.789-10</td>
